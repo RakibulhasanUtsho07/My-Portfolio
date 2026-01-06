@@ -2,16 +2,43 @@ header{
     max-width: 1600px;
     border: 1px solid black;
 }
-.navigation{
-    max-width: 1140px;
-    
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
+ nav  ul .btn{
+    border: none;
+    width: 150px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 35px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
 }
+nav{
+    border: 1px solid black;
+    width: 71%;
+    max-width: 1140;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+
 .header-logo{
     font-size: 45px;
     font-weight: 900;
     color: black;
 }
+.orange{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    gap: 51px;
+    list-style-type: none;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #474747;
+}
+
