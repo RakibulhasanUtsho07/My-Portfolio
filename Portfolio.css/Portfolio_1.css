@@ -1,0 +1,17 @@
+header{
+    max-width: 1600px;
+    border: 1px solid black;
+}
+.navigation{
+    max-width: 1140px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.header-logo{
+    font-size: 45px;
+    font-weight: 900;
+    color: black;
+}
